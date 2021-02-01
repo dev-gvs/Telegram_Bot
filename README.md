@@ -4,8 +4,7 @@
 
 ### Задание №2, 3 вариант
 
-![Example](example.png)
-
 ![Screenshot1](1.png)
 
 ![Screenshot2](2.png)
+![Screenshot3](3.png)
