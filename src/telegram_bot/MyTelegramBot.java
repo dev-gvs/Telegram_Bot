@@ -73,13 +73,4 @@ public class MyTelegramBot extends TelegramLongPollingCommandBot {
         return "123456789:QWEQwEqweqweqwEqEQEQWasde5asdasd324";
     }
 
-    public static void main(String[] args) {
-        try {
-            TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            botsApi.registerBot(new MyTelegramBot());
-        } catch (TelegramApiException e) {
-            e.printStackTrace();
-        }
-    }
-
 }
